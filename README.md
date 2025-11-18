@@ -6,7 +6,7 @@ The footnotes are of mixed character: part consist of the translator's own obser
 
 The original flow of the book (that is, starting from the first chapter until the beginning of the appendices) has been preserved. The translator, however, wished to compile more documents related to the contents of the book, as well as preserve certain rare materials cited within the text.
 
-The translation has been completed up to Chapter 12; remaining four chapters as well as the supplementary material are in progress. The translator hopes to make them available in due course. Additional proof-reading and editing has been completed up to and including Chapter 2. Final editing (unification of abbreviations, writing style, etc.) has not yet commenced.
+The translation has been completed up to Chapter 12; remaining four chapters as well as the supplementary material are in progress. The translator hopes to make them available in due course. Additional proof-reading and editing has been completed up to and including Chapter 3. Final editing (unification of abbreviations, writing style, etc.) has not yet commenced.
 
 Criticism of this translation, as well as any suggestions toward its improvement, will be gratefully received and may be addressed to `k@iczelia.net`.
 
