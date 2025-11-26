@@ -11,3 +11,5 @@ The translation has been completed. Additional proof-reading and editing has bee
 Criticism of this translation, as well as any suggestions toward its improvement, will be gratefully received and may be addressed to `k@iczelia.net`.
 
 The translator dedicates the derived part of the work to the public domain by waiving all of her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
+
+_Repository cover image: from ''That Chernobyl Guy''_
