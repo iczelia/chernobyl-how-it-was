@@ -14,6 +14,6 @@ The translator dedicates the derived part of the work to the public domain by wa
 
 ## Miscellanea
 
-[Reddit Discussion](https://www.reddit.com/r/chernobyl/comments/1p7i3er/comment/nqy3ltw/).
+[Reddit Discussion](https://www.reddit.com/r/chernobyl/comments/1p7i3er/accurate_translation_and_typesetting_of_a_s/).
 
 _Repository cover image: from ''That Chernobyl Guy''_
