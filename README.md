@@ -12,4 +12,8 @@ Criticism of this translation, as well as any suggestions toward its improvement
 
 The translator dedicates the derived part of the work to the public domain by waiving all of her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
 
+## Miscellanea
+
+[Reddit Discussion](https://www.reddit.com/r/chernobyl/comments/1p7i3er/comment/nqy3ltw/).
+
 _Repository cover image: from ''That Chernobyl Guy''_
