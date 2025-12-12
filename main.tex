@@ -21,6 +21,7 @@
 
 \usepackage{array}
 \usepackage{longtable}
+\usepackage{wrapfig}
 
 \usepackage{fontspec}
 \usepackage{polyglossia}
@@ -121,6 +122,13 @@
 \chapter*{About the Author}
 \addcontentsline{toc}{chapter}{About the Author}
 \markboth{About the Author}{}
+
+\begin{wrapfigure}{l}{0.3\textwidth}
+  \vspace{-\baselineskip} % align top of image with first line of text
+  \includegraphics[width=0.28\textwidth]{portrait.jpeg}
+  \vspace{-\baselineskip} % align bottom of image with last line of text
+\end{wrapfigure}
+
 Anatoly Stepanovich Dyatlov (\textit{Анатолий Степанович Дятлов}) was born on the 3rd of March, 1931, in the village of Atamanovo, within Krasnoyarsk Krai. His father, a disabled veteran of the Great War, maintained the beacon on the Yenisei River; his mother devoted herself to the care of the household. At the age of fourteen, Dyatlov ran away from home.
 
 Having completed seven years of schooling in 1945, the young Dyatlov entered the Norilsk Mining and Metallurgical Technical College, from whose electrotechnical department he graduated with honors in 1950. For the following three years he labored in Norilsk, at one of the enterprises of the Ministry of Medium Machine Building, acquiring the discipline and precision of industrial practice.
@@ -941,17 +949,18 @@ If the operational reactivity margin parameter can disable Emergency Protection 
 \textit{``The reactor-plant signalling shall give alarms (visual and audible) upon reaching Emergency Protection setpoints and upon emergency process deviations, and pre-alarms when approaching Emergency Protection thresholds, radiation rises above limits, or normal equipment function is impaired.''}
 \end{personal}
 
-\begin{personal}[Rules on Nuclear Safety; Article 3.1.9]
+\begin{personal}[Rules on Nuclear Safety; Article 3.3.21]
 \textit{``The Control and Protection System shall include a fast Emergency Protection actuation ensuring shutdown when an emergency arises; Emergency Protection signals and setpoints shall be justified in the design.''}
 \end{personal}
 
-None of this existed -- in defiance of binding rules -- with respect to operational reactivity margins. After the accident we were told this is the \textit{``most important parameter.''} Permit disbelief. Every small leakage sump on site had level alarms and often automatic pumping; yet the \textit{``most important parameter,''} deviation of which blows up the reactor, had nothing -- not even a continuous-reading instrument. That is rhetoric; the law quoted above is substance. The operating staff was not furnished with the control means and automation required by law. A lone line in the Operating Regulations did not suffice.
+% Unhappy about this.
+None of this existed -- in defiance of binding rules -- with respect to operational reactivity margins. After the accident we were told this is the \textit{``most important parameter.''} Permit disbelief. Every small leakage sump on site had level alarms and often automatic pumping; yet the \textit{``most important parameter,''} deviation of which blows up the reactor, had nothing -- not even a continuous-reading instrument. That is rhetoric; the law quoted above is substance. The operating staff was not furnished with the control means and automation required by law. A lone line in the Operating Regulations did not suffice. One of the Soviet specialists who informed the international community at the IAEA told me in August 1986 at Hospital No. 6 in Moscow that foreign specialists had commented on this about the excessive workload on the operator. But our specialists began to talk about the difficulty of separating functions between humans and machines. It takes a fair amount of cynicism to even discuss separation under these conditions. Parameter deviations lead to global catastrophe, and the personnel don't even see or hear.
 
 What measuring tools existed will be noted shortly. If a deviation trips the unit without damage, well and good -- dock my bonus, issue a reprimand. But why must staff pay with life, health, and liberty for others' sins, and not the sinners themselves?
 
 Though we did not know that low operational reactivity margin could invert Emergency Protection into a power-surging device, and though, lacking proper instruments, we could not deem the operational reactivity margin \textit{``most important,''} we never intended to violate it. A violation is to knowingly ignore an indication; on 26~April no one saw the operational reactivity margin below fifteen. The unit process computer -- a small machine -- computed it by the \textit{PRIZMA} program in five-minute cycles on demand. One cannot track a parameter that may change by three to four \textit{``rod-units''} in seconds when feedwater flow shifts. In steady regimes this sufficed; in transients it did not. For power-shape control, together with the physical monitoring system -- its \num{130}~radial and twelve seven-zone axial detectors -- this operational reactivity margin method sufficed. For the now-claimed new role as guarantor of Emergency Protection operability, it did not; and the staff had never been told so. A reactor operator already performs over a thousand manipulations and monitors over a thousand parameters.
 
-We may, perchance, have overlooked a transient fall of power; the arrangement of the experiment rendered such omission almost inevitable. The Nuclear Safety Department supplied the control room with wrong data, whereby all rational prediction was made vain. ``To measure was impossible; to forecast, equally so.'' Could it be that the Scientific Supervisor and the Chief Designer grasped not the hazard? If they did not, the case is grievous; if they did, it is graver still. In either case, the obligation of knowledge was theirs. For it is the office of designers to deliberate and determine beforehand, that operators, constrained by the urgencies of time, be not driven into extremity. Every avenue leading toward catastrophe must, by design, be foreclosed. The vast forces now confined within modern installations permit no reliance upon traditions born of a lesser age.
+We may, perchance, have overlooked a transient fall of the Reactivity Margin; the arrangement of the experiment rendered such omission almost inevitable. The Nuclear Safety Department supplied the control room with wrong data, whereby all rational prediction was made vain. ``To measure was impossible; to forecast, equally so.'' Could it be that the Scientific Supervisor and the Chief Designer grasped not the hazard? If they did not, the case is grievous; if they did, it is graver still. In either case, the obligation of knowledge was theirs. For it is the office of designers to deliberate and determine beforehand, that operators, constrained by the urgencies of time, be not driven into extremity. Every avenue leading toward catastrophe must, by design, be foreclosed. The vast forces now confined within modern installations permit no reliance upon traditions born of a lesser age.
 
 The RBMK reactor is rated for \qty{3.2}{\giga\watt} of thermal power; yet, at the moment of calamity, the estimates rise from twentyfold to a hundredfold of that figure. It would have mounted indefinitely until the reactor exploded. Against a \textit{prompt-critical} excursion upon instantaneous neutrons, no safeguard avails; only prevention is conceivable. It is impermissible that the advent of such a state should depend upon operator error. The code of safety itself declares:
 
