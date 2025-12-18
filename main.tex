@@ -60,6 +60,9 @@
 \DeclareSIUnit{\rpm}{rpm}  % revolutions per minute
 \DeclareSIUnit{\roentgen}{R}
 \DeclareSIUnit{\atmosphere}{atm}
+\DeclareSIUnit{\kilovolt}{kV}
+\DeclareSIUnit{\ton}{t}
+\DeclareSIUnit{\force}{f}
 \DeclareSIUnit{\betaeff}{\ensuremath{\beta_\mathrm{eff}}}
 
 % Headers and footers
@@ -5307,7 +5310,7 @@ in the mode of joint coast-down with the load of auxiliary systems
 
 \paragraph{1.2.} The tests are conducted prior to placing the unit into scheduled preventive maintenance (SPM), under an authorized work request.
 
-\paragraph{1.3.} Duration of the tests: 4 hours.
+\paragraph{1.3.} Duration of the tests: \num{4}~hours.
 
 \section*{Test Conditions}
 
@@ -5324,7 +5327,6 @@ in the mode of joint coast-down with the load of auxiliary systems
     \hline
     2.4. & Turbogenerator TG-8 operates at normal excitation; coast-down units ARV-SD and ARV-VG are activated. & NS of Electrical Shop \\
     \hline
-    2.5. & Assemble signal transmission circuit from MPA to the electrical section of stepwise load pickup circuit for diesel-generator (DG) and coast-down circuit on two sets of 4ЩANP-3 automation units: connect additional button contacts to panel No. 2 (left side) of ЧЩ AHP-3, output to BSHU-4 (item PB-3) to terminals 10 (091-1) with 18 (09-1) and terminals 10 (01-1) with 36 (031-1), and to panel No. 3 (left side) to terminals 10 (01-2) with 18 (09-2) and 10 (01-2) with 36 (031-2). & ETL \\
     \hline
     2.6. & Power supply to sections 8RA, 8RB, 8RNA is provided via operational input feeders. & NS of Electrical Shop \\
     \hline
@@ -5332,15 +5334,15 @@ in the mode of joint coast-down with the load of auxiliary systems
     \hline
     2.8. & In section 8RB, switch on the following mechanisms: 2NPRT-5; 41KN-83; 42KN-83; 4GCN-14,24; 4PN-5; 4NGO-82; VK-15; 2CN-11,12. & NSB; NS of Electrical Shop \\
     \hline
-    2.9. & Transfer power supply of 0.4 kV sections to reserve supply: section 164N from transformer 24TR, section 74N from transformer 21TR, section 78N from transformer 23TR, section 232N from transformer 231T, section 180N from transformer 179T, section 225N from transformer 226T, section 75N from transformer 22TR, section 167N from transformer 24TR, section 228N from transformer 227T, section 165N from transformer 24TR, section 220N from transformer 221T, section 208N from transformer 208T, section 160N from transformer 159T. & NSB; NS of Electrical Shop \\
+    2.9. & Transfer power supply of \qty{0.4}{\kilovolt} sections to reserve supply: section 164N from transformer 24TR, section 74N from transformer 21TR, section 78N from transformer 23TR, section 232N from transformer 231T, section 180N from transformer 179T, section 225N from transformer 226T, section 75N from transformer 22TR, section 167N from transformer 24TR, section 228N from transformer 227T, section 165N from transformer 24TR, section 220N from transformer 221T, section 208N from transformer 208T, section 160N from transformer 159T. & NSB; NS of Electrical Shop \\
     \hline
     2.10. & In section 8RNA, switch on the following connections: 92TNC, 91TIP, 93TIP, 224T, 4NSOS-3, 4NS-3, 4-ZTNPS, 2NA-6. & NSB; NS of Electrical Shop \\
     \hline
-    2.11. & Transfer power supply of 0.4 kV reserve busbar for units No. 3 from transformer 16TR by switching on section switch RS-15, 16TR and RS-16, 17TR. Disconnect switches of 0.4 kV transformers 15, 17TR. & NS of Electrical Shop \\
+    2.11. & Transfer power supply of \qty{0.4}{\kilovolt} reserve busbar for units No. 3 from transformer 16TR by switching on section switch RS-15, 16TR and RS-16, 17TR. Disconnect switches of \qty{0.4}{\kilovolt} transformers 15, 17TR. & NS of Electrical Shop \\
     \hline
     2.12. & Reactor cooling in the test is provided by sections 7RA, 7RB, 7RNA, 7RNB. For this purpose, one PN (4NP-1 or 4NP-2), two GCN each (4GCN-11,21; 4GCN-12,22), and one KN-2 lift mechanism each (42KN-71(72) and 42KN-81), as well as 2NA-4(5) in sections 7NRB, 7NRA must be switched on. & NSB \\
     \hline
-    2.13. & In the 6 kV switchgear room and BSHU-4, assemble test circuits for oscillograph recording of parameters: stator voltage and current of TG-8; rotor voltage and current of TG-8; voltages and currents of input feeders of sections 8RA, 8RB, 8RNA; rotation speed of TG-8; currents and rpm of PN and GCN; moment of closure of safety valves. & DTE; SRZA; CTAI; ETL; CTAI \\
+    2.13. & In the \qty{6}{\kilovolt} switchgear room and BSHU-4, assemble test circuits for oscillograph recording of parameters: stator voltage and current of TG-8; rotor voltage and current of TG-8; voltages and currents of input feeders of sections 8RA, 8RB, 8RNA; rotation speed of TG-8; currents and rpm of PN and GCN; moment of closure of safety valves. & DTE; SRZA; CTAI; ETL; CTAI \\
     \hline
     2.14. & For recording technological parameters of the unit in tests, the UVS ``Skala'' system and standard recording instruments are used. List in Appendix 1. List of parameters recorded using additionally installed recording instruments is given in Appendix 2. & CTAI; CHPNP \\
     \hline
@@ -5390,7 +5392,7 @@ After 2DG-6 has accelerated and connected to the section, the mechanisms of sect
     \hline
     3.9. & Review of recordings and oscillograms, inspection of equipment, record of failed indicators and illuminated annunciator lights, readings of monitoring instruments. & CHPNP; NSB; NS of Electrical Shop; DTE \\
     \hline
-    3.10. & Restore power supply to sections 8RA, 8RB (sections) 0.4~kV. & NS of Electrical Shop \\
+    3.10. & Restore power supply to sections 8RA, 8RB (sections) \qty{0.4}{\kilovolt}. & NS of Electrical Shop \\
     \hline
     3.10.1 & Disconnect all breakers of auxiliary system mechanisms on de-energized sections 8RA, 8RB. & NS of Electrical Shop \\
     \hline
@@ -5398,9 +5400,9 @@ After 2DG-6 has accelerated and connected to the section, the mechanisms of sect
     \hline
     3.10.3 & If necessary, switch on auxiliary system mechanisms for this section. & NSB \\
     \hline
-    3.10.4 & Close breakers of 6~kV transformers of auxiliary systems 6/0.4~kV on sections 8RA, 8RB. & NS of Electrical Shop \\
+    3.10.4 & Close breakers of \qty{6}{\kilovolt} transformers of auxiliary systems \qty{6} and \qty{0.4}{\kilovolt} on sections 8RA, 8RB. & NS of Electrical Shop \\
     \hline
-    3.10.5 & Close operational input feeders of 0.4~kV sections. & NS of Electrical Shop \\
+    3.10.5 & Close operational input feeders of \qty{0.4}{\kilovolt} sections. & NS of Electrical Shop \\
     \hline
     3.10.6 & Restore the position of gate valves closed per item 2.15 in RC-2. & CHPNP \\
     \hline
@@ -5436,5 +5438,201 @@ After 2DG-6 has accelerated and connected to the section, the mechanisms of sect
 \paragraph{5.2.5.} For operative switching on equipment of remote service stations in Reactor Circuit, Turbine Circuit, and Central Technical Measurement and Instrumentation Department workshops: Shift Supervisors of respective shops.
 
 \paragraph{5.2.6.} Overall direction during tests is exercised by Deputy Chief Engineer for Operations of the 2nd Sector, Dyatlov A. S.
+
+\section*{Attachment 1 to the Test Program}
+
+\begin{center}
+ANALOGUE PARAMETERS CALLED \\
+FROM DREG PROGRAMS IN EXPERIMENTS \\
+\end{center}
+
+\small
+\begin{center}
+\begin{longtable}{|p{3em}|p{12em}|p{7em}|p{8em}|}
+\hline
+\textit{No.} &
+\textit{Name of control section} &
+\textit{Point designation} &
+\textit{Remarks} \\
+\hline
+\endfirsthead
+
+\hline
+\textit{No.} &
+\textit{Name of control section} &
+\textit{Point designation} &
+\textit{Remarks} \\
+\hline
+\endhead
+
+1 &
+Flow rate of feedwater and blowdown &
+P1G1111 &
+\qtyrange{0}{1600}{\ton\per\hour} \\
+\hline
+
+2 &
+Same as above &
+P2G1111 &
+Same as above \\
+\hline
+
+3 &
+Pressure in blowdown &
+P1P2111 &
+\qtyrange{0}{100}{\kilogram\force\per\centi\meter\squared} \\
+\hline
+
+4 &
+Same as above &
+P2P2111 &
+Same as above \\
+\hline
+
+5 &
+Level in blowdown &
+P1H2511,21 &
+--- \\
+\hline
+
+6 &
+Same as above &
+P2H2511,21 &
+--- \\
+\hline
+
+7 &
+Flow rate in discharge nozzle of main circulation pumps (MCP) &
+N1G1211,21,31,41 &
+\qtyrange{0}{12500}{\meter\cubed\per\hour} \\
+\hline
+
+8 &
+Water pressure in discharge header of feedwater pumps &
+DOR7311,21 &
+\qtyrange{0}{160}{\kilogram\force\per\centi\meter\squared} \\
+\hline
+
+9 &
+Pressure in suction header of condensate pump KN-11 &
+T2P4311 &
+\qtyrange{0}{15}{\kilogram\force\per\centi\meter\squared} \\
+\hline
+
+10 &
+Generator power &
+T2N7111 &
+\qtyrange{0}{600}{\mega\watt} \\
+\hline
+
+11 &
+Voltage on 6 kV auxiliary buses &
+T2H7412,13 &
+\qtyrange{0}{7.8}{\kilovolt} \\
+\hline
+
+12 &
+Pressure in discharge header of control rod drive system &
+AOR3211 &
+\qtyrange{0}{6}{\kilogram\force\per\centi\meter\squared} \\
+\hline
+
+13 &
+Stop valve closed &
+T2A1411 &
+--- \\
+\hline
+
+\end{longtable}
+\end{center}
+
+\medskip
+\textbf{Notes:}
+\begin{enumerate}
+  \item All parameters are polled with a cycle of 2 seconds.
+  \item Printout of parameters via the DREG system is provided by SDIVT; responsible party: head of CTAI.
+\end{enumerate}
+
+\section*{Attachment 2 to the Test Program}
+
+\begin{center}
+  LIST OF PARAMETERS RECORDED ON THE EIK CONTROL PANEL DURING EXPERIMENTS
+\end{center}
+
+\small
+\begin{center}
+\begin{longtable}{|p{3em}|p{16em}|p{7em}|}
+\hline
+\textit{No.} &
+\textit{Name} &
+\textit{Designation} \\
+\hline
+\endfirsthead
+
+\hline
+\textit{No.} &
+\textit{Name} &
+\textit{Designation} \\
+\hline
+\endhead
+
+1 &
+Feedwater flow rate through four loops &
+P2G1311,12 \\
+\hline
+
+2 &
+Water pressure at suction of main circulation pumps (MCP) &
+N2P1111,13 \\
+\hline
+
+3 &
+Water pressure at discharge of main circulation pumps (MCP) &
+N2P1211,13 \\
+\hline
+
+4 &
+Water flow rate in discharge header of MCP-13 and MCP-23 &
+H1G1231, H2G1231 \\
+\hline
+
+5 &
+Water pressure in discharge header of feedwater pumps &
+DOR7311,12 \\
+\hline
+
+6 &
+Pressure downstream of first-stage condensate pump TG-8 &
+T2P4111 \\
+\hline
+
+7 &
+Pressure at suction of second-stage condensate pump TG-8 &
+T2P4311 \\
+\hline
+
+8 &
+Pressure at discharge of second-stage condensate pump TG-8 &
+T2P4411 \\
+\hline
+
+9 &
+Condensate flow rate after low-pressure heater LPH-5 &
+T2G4611 \\
+\hline
+
+10 &
+Water pressure in suction header of feedwater pumps (two points) &
+DOR4311 \\
+\hline
+
+\end{longtable}
+\end{center}\normalsize
+
+\chapter*{Appendix 7: Who Was Anatoly Dyatlov?}
+\addcontentsline{toc}{chapter}{Appendix 7: Who Was Anatoly Dyatlov?}
+\markboth{Appendix 7: Who Was Anatoly Dyatlov?}{}
+
+TODO.
 
 \end{document}
